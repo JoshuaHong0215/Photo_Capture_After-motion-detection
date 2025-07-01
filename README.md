@@ -13,7 +13,9 @@ GPS모듈(NEO-6M, u-blox, VK-172)이 있다면 추후 아래와 같은 절차를
    sudo systemctl stop gpsd.socket
    sudo gpsd /dev/ttyUSB0 -F /var/run/gpsd.sock
 
+
 3. 코드 수정_추후
+
 import gpsd
 
 #GPSD에 연결하는 함수
