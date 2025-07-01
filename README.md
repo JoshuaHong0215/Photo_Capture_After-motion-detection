@@ -6,6 +6,7 @@ After motion detect, LED Flicker and e-mail sent
 
 # 보완사항
 GPS모듈(NEO-6M, u-blox, VK-172)이 있다면 추후 아래와 같은 절차를 따를것
+
 [1-3] 라즈베리파이에 설치
 1. pip install gpsd-py3 설치
 2. sudo apt install gpsd gpsd-clients
