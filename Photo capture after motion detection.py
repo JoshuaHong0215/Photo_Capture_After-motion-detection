@@ -11,9 +11,9 @@ led = LED(17)                  # LED는 GPIO 17번
 pir = MotionSensor(4)          # SR505는 GPIO 4번
 
 # 이메일 발신자 및 수신자 정보 설정
-EMAIL_ADDRESS = "sebin5736@gmail.com"       # 보내는 이메일 주소
-EMAIL_PASSWORD = "mrnt sfau vexx kipm"         # Gmail 앱 비밀번호
-TO_EMAIL = "sebin105@naver.com"        # 받는 이메일 주소
+EMAIL_ADDRESS = "id@gmail.com"       # 보내는 이메일 주소
+EMAIL_PASSWORD = "password"         # Gmail 앱 비밀번호
+TO_EMAIL = "id@naver.com"        # 받는 이메일 주소
 
 # 사진 저장 폴더 생성
 photo_folder = "./photos"
