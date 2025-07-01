@@ -7,10 +7,6 @@ After motion detect, LED Flicker and e-mail sent
 # 보완사항
 GPS모듈(NEO-6M, u-blox, VK-172)이 있다면 추후 아래와 같은 절차를 따를것
 
-# Image
-![Photo_capture_image](https://github.com/user-attachments/assets/c3415a3b-141b-468b-8006-f3e998c4a06e)
-
-
 [1-2] 라즈베리파이에 설치
 1. pip install gpsd-py3 설치
 2. sudo apt install gpsd gpsd-clients
@@ -39,3 +35,7 @@ def get_gps_location():
 
 3-1 timestamp = time.strftime(.....)아래에 gps_text = get_gps_location()추가
 3-2 cv2.puttext(frame.timestamp (10, 30)....코드 줄 아래에 10,60좌표에 gps_text 코드삽입하는 코드 작성
+
+
+# Image
+![Photo_capture_image](https://github.com/user-attachments/assets/c3415a3b-141b-468b-8006-f3e998c4a06e)
