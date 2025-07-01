@@ -12,9 +12,11 @@ GPS모듈(NEO-6M, u-blox, VK-172)이 있다면 추후 아래와 같은 절차를
 import gpsd
 
 // GPSD에 연결하는 함수
+
 gpsd.connect()
 
 // GPS 좌표 가져오는 함수
+
 def get_gps_location():
     try:
         packet = gpsd.get_current()
