@@ -3,6 +3,8 @@ After motion detect, LED Flicker and e-mail sent
 
 # Feature
 모션 감지 후 LED가 깜빡거리며 사진을 찍고 지정된 이메일로 사진을 전송하며 1분 동안 감지가 이루어지지않을 경우 점등 되는 보안 프로그램
+
+# 보완사항
 GPS모듈(NEO-6M, u-blox, VK-172)이 있다면 추후 아래와 같은 절차를 따를것
 1. pip install gpsd-py3 설치
 2. sudo apt install gpsd gpsd-clients
@@ -11,11 +13,11 @@ GPS모듈(NEO-6M, u-blox, VK-172)이 있다면 추후 아래와 같은 절차를
 3. 코드 수정
 import gpsd
 
-// GPSD에 연결하는 함수
+#GPSD에 연결하는 함수
 
 gpsd.connect()
 
-// GPS 좌표 가져오는 함수
+#GPS 좌표 가져오는 함수
 
 def get_gps_location():
     try:
